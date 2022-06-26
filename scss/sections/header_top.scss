@@ -1,0 +1,76 @@
+// .header-top-start
+
+.header-top{
+  background-color: #181F2B;
+  padding-bottom: 169px;
+}
+
+.header-top-all{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.header-top-h2{
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+width: 734px;
+height: 120px;
+color: #fff;
+text-align: center;
+}
+
+.header-top-p{
+  font-size: 20px;
+line-height: 30px;
+width: 589px;
+height: 90px;
+color: #fff;
+text-align: center;
+}
+
+.header-top-href{
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+  margin-top: 32px;
+  display: flex;
+  width: 280px;
+  height: 56px;
+  border-radius: 28px;
+  background-color: #63E1D9;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+@media screen and (max-width:822px) {
+.information-folder{
+  width: 304px;
+  height: 225px;
+}  
+
+.header-top-h2{
+  width: 320px;
+  height: 108px;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.header-top-p{
+  font-size: 14px;
+line-height: 21px;
+  width: 296px;
+height: 84px;
+}
+}
+
+// header-top-end

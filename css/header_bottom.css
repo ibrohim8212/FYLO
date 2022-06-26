@@ -1,0 +1,64 @@
+.header-bottom {
+  background-color: #181F2B;
+  padding-bottom: 360px;
+  padding-top: 120px;
+  background-image: url(../../optimal/top-commans.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 100px) calc(50% - 100px);
+}
+
+.header-bottom-ul {
+  display: flex;
+  list-style: none;
+}
+
+.header-bottom-li {
+  margin-right: 40px;
+  padding-bottom: 26px;
+  padding-left: 26px;
+  padding-top: 40px;
+  padding-right: 25px;
+  background-color: #202A3C;
+  border-radius: 4px;
+}
+
+.header-bottom-li:nth-child(3n) {
+  margin-right: 0;
+}
+
+.header-bottom-p-1 {
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.header-bottom-peoples {
+  display: flex;
+  align-items: center;
+}
+
+.header-bottom-strong {
+  font-size: 10px;
+  line-height: 12px;
+  color: #FFFFFF;
+}
+
+.header-bottom-p-2 {
+  font-size: 7px;
+  line-height: 10px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 926px) {
+  .header-bottom-ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-bottom-li {
+    width: 280px;
+    height: 160px;
+    margin-bottom: 24px;
+    margin-right: 0;
+  }
+}/*# sourceMappingURL=header_bottom.css.map */
